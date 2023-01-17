@@ -160,7 +160,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
     }
 
     private void drawTitle(Group root) {
-        Text title = new Text(235, 690, SUDOKU);
+        Text title = new Text(260, 40, SUDOKU);
         title.setFill(Color.WHITE);
         Font titleFont = new Font(43);
         title.setFont(titleFont);
